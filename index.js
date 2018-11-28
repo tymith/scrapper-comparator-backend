@@ -3,7 +3,7 @@ import fetchTiketCom from './function/fetchTiketCom'
 import fetchAiryRooms from './function/fetchAiryRooms';
 
 const app = express()
-const port = 8000
+const port = 1234
 
 app.get('/ticket',async (req,res)=>{
     try{
